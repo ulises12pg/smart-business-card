@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Herreria e Innovacion</title>
+    <meta
+      name="description"
+      content="Tarjeta profesional inteligente: WhatsApp, llamada, correo, redes, servicios y botón de guardar contacto."
+    />
+
+    <meta property="og:title" content="Herrería e Innovación · Tarjeta digital" />
+    <meta
+      property="og:description"
+      content="Contacto, ubicación en mapa, WhatsApp y Facebook. Herrería e Innovación."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="icon" href="data:," />
+    <link rel="preload" href="./styles.css" as="style" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Herrería e Innovación",
+        "description": "Forjando soluciones, Diseñando el futuro.",
+        "telephone": ["+529845097009", "+529989363962"],
+        "email": ["herreriaeinnovacion@gmail.com", "innovacion865@gmail.com"],
+        "sameAs": [
+          "https://www.facebook.com/profile.php?id=61576450940744&mibextid=ZbWKwL"
+        ],
+        "hasMap": "https://www.google.com/maps?q=19.9688795,-99.2455191&z=17&hl=es"
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip" href="#main">Saltar al contenido</a>
+
+    <main id="main" class="wrap">
+      <header class="hero">
+        <div class="brand">
+          <div class="avatar" aria-hidden="true">
+            <img id="avatarLogo" alt="Logo de Herrería e Innovación" src="./logo.png" loading="lazy" hidden />
+            <span class="avatar-initials" id="avatarInitials">HI</span>
+          </div>
+
+          <div class="headline">
+            <p class="kicker">Tarjeta Profesional Inteligente</p>
+            <h1 class="name" id="displayName">HERRERIA E INNOVACION</h1>
+            <p class="role" id="displayRole">Forjando Soluciones, Diseñando el Futuro</p>
+            <p class="location" id="displayLocation">Conejos Atotonilco Hidalgo · México</p>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <button class="btn btn-ghost" type="button" data-action="share" aria-label="Compartir">
+            Compartir
+          </button>
+          <button class="btn btn-ghost" type="button" data-action="copy" aria-label="Copiar enlace">
+            Copiar enlace
+          </button>
+          <a class="btn btn-primary" href="./contact.vcf" download>Guardar contacto</a>
+        </div>
+
+      </header>
+
+      <section class="card grid grid-actions" aria-label="Acciones rápidas">
+        <a class="tile tile-whatsapp" id="whatsLink" href="#" rel="noopener">
+          <div class="tile-title">WhatsApp</div>
+          <div class="tile-sub" id="whatsLinkSub">984 509 7009</div>
+        </a>
+        <a class="tile tile-whatsapp" id="whatsLink2" href="#" rel="noopener">
+          <div class="tile-title">WhatsApp</div>
+          <div class="tile-sub" id="whatsLink2Sub">998 936 3962</div>
+        </a>
+        <a class="tile tile-call" id="callLink" href="#">
+          <div class="tile-title">Llamar</div>
+          <div class="tile-sub" id="callLinkSub">984 509 7009</div>
+        </a>
+        <a class="tile tile-mail" id="mailLink" href="#">
+          <div class="tile-title">Correo</div>
+          <div class="tile-sub tile-mail-address" id="mailLinkSub">herreriaeinnovacion@gmail.com</div>
+        </a>
+        <a class="tile tile-mail" id="mailLink2" href="#">
+          <div class="tile-title">Correo</div>
+          <div class="tile-sub tile-mail-address" id="mailLink2Sub">innovacion865@gmail.com</div>
+        </a>
+        <a class="tile tile-maps" id="mapsLink" href="#" target="_blank" rel="noopener">
+          <div class="tile-title">Ubicación</div>
+          <div class="tile-sub">Google Maps</div>
+        </a>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>Servicios</h2>
+          <p class="muted">Transformamos el metal en piezas únicas para tu hogar o negocio. En herrería e innovación, fusionamos</p>
+        </div>
+        <ul class="chips" id="services">
+          <li>Herrería en general</li>
+          <li>Rejas y portones</li>
+          <li>Estructuras metálicas</li>
+          <li>Soldadura y reparación</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-label="Galería de trabajos">
+        <div class="section-head">
+          <h2>Galería</h2>
+          <p class="muted">Algunos de nuestros proyectos.</p>
+        </div>
+        <div id="galleryRoot"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>Redes</h2>
+        </div>
+
+        <div class="grid" data-social-grid>
+          <a class="tile" id="fbLink" href="#" target="_blank" rel="noopener">
+            <div class="tile-title">Facebook</div>
+            <div class="tile-sub">Herrería e innovación</div>
+          </a>
+        </div>
+        <div class="grid" data-social-grid>
+          <a class="tile" id="ttLink" href="#" target="_blank" rel="noopener">
+            <div class="tile-title">Tik Tok</div>
+            <div class="tile-sub">herreria.e.innova</div>
+          </a>
+        </div>
+      </section>
+
+      <section class="card qr">
+        <div class="section-head">
+          <h2>Tu QR</h2>
+        </div>
+
+        <div class="qr-row">
+          <div class="qr-box" aria-label="Código QR">
+            <img id="qrImg" alt="Código QR de tu tarjeta" loading="lazy" />
+          </div>
+          <div class="qr-actions">
+            <button class="btn btn-secondary" type="button" data-action="download-qr">
+              Descargar QR
+            </button>
+            <button class="btn btn-ghost" type="button" data-action="toggle-theme">
+              Cambiar tema
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="muted">
+          © <span id="year"></span> <span id="footerName">Tu Nombre</span> · Hecho para móvil ·
+          <span class="mono" id="miniStat"></span>
+        </p>
+      </footer>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
