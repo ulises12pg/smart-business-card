@@ -356,6 +356,10 @@ function main() {
   bumpStat();
   wireActions();
   guardEmptyLinks();
+
+  // Hydrate og:url so Open Graph previews are correct on any domain
+  const ogUrl = document.getElementById("ogUrl");
+  if (ogUrl) ogUrl.setAttribute("content", currentUrl());
 }
 
 main();
