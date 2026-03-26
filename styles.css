@@ -1,27 +1,27 @@
 :root{
-  /* Fondo metálico (tema oscuro por defecto) */
-  --bgTop: #0b0d12;
-  --bgBottom: #05050a;
+  /* Fondo claro (tema claro por defecto) */
+  --bgTop: #f7f8fb;
+  --bgBottom: #e7ebf3;
   --bg: var(--bgTop);
 
-  --card: rgba(255,255,255,.055);
-  --card2: rgba(255,255,255,.095);
-  --text: rgba(255,255,255,.92);
-  --muted: rgba(255,255,255,.72);
-  --muted2: rgba(255,255,255,.56);
-  --line: rgba(255,255,255,.12);
-  --shadow: 0 18px 55px rgba(0,0,0,.44);
+  --card: rgba(0,0,0,.045);
+  --card2: rgba(0,0,0,.07);
+  --text: rgba(10,12,18,.92);
+  --muted: rgba(10,12,18,.70);
+  --muted2: rgba(10,12,18,.55);
+  --line: rgba(10,12,18,.10);
+  --shadow: 0 18px 55px rgba(17,24,39,.14);
 
-  /* Acento oro (herrería) */
-  --accent: #d4af37;
-  --accent2: #b8860b;
-  --accentBorder: rgba(212,175,55,.42);
-  --accentFocus: rgba(212,175,55,.22);
-  --accentGlow: rgba(212,175,55,.26);
-  --metalA: rgba(212,175,55,.95);
-  --metalB: rgba(184,134,11,.72);
-  --metalC: rgba(212,175,55,.26);
-  --metalD: rgba(184,134,11,.12);
+  /* Acento plateado */
+  --accent: #c0c0c0;
+  --accent2: #9ca3af;
+  --accentBorder: rgba(156,163,175,.42);
+  --accentFocus: rgba(156,163,175,.20);
+  --accentGlow: rgba(192,192,192,.30);
+  --metalA: rgba(192,192,192,.95);
+  --metalB: rgba(156,163,175,.70);
+  --metalC: rgba(192,192,192,.24);
+  --metalD: rgba(156,163,175,.12);
 
   --ok: #22c55e;
   --warn: #f59e0b;
@@ -31,30 +31,30 @@
   --max: 980px;
 }
 
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme: dark){
   :root{
-    --bgTop: #f7f8fb;
-    --bgBottom: #e7ebf3;
+    --bgTop: #0b0d12;
+    --bgBottom: #05050a;
     --bg: var(--bgTop);
 
-    --card: rgba(0,0,0,.045);
-    --card2: rgba(0,0,0,.07);
-    --text: rgba(10,12,18,.92);
-    --muted: rgba(10,12,18,.70);
-    --muted2: rgba(10,12,18,.55);
-    --line: rgba(10,12,18,.10);
-    --shadow: 0 18px 55px rgba(17,24,39,.14);
+    --card: rgba(255,255,255,.055);
+    --card2: rgba(255,255,255,.095);
+    --text: rgba(255,255,255,.92);
+    --muted: rgba(255,255,255,.72);
+    --muted2: rgba(255,255,255,.56);
+    --line: rgba(255,255,255,.12);
+    --shadow: 0 18px 55px rgba(0,0,0,.44);
 
-    /* Acento plateado */
-    --accent: #c0c0c0;
-    --accent2: #9ca3af;
-    --accentBorder: rgba(156,163,175,.42);
-    --accentFocus: rgba(156,163,175,.20);
-    --accentGlow: rgba(192,192,192,.30);
-    --metalA: rgba(192,192,192,.95);
-    --metalB: rgba(156,163,175,.70);
-    --metalC: rgba(192,192,192,.24);
-    --metalD: rgba(156,163,175,.12);
+    /* Acento oro (herrería) */
+    --accent: #d4af37;
+    --accent2: #b8860b;
+    --accentBorder: rgba(212,175,55,.42);
+    --accentFocus: rgba(212,175,55,.22);
+    --accentGlow: rgba(212,175,55,.26);
+    --metalA: rgba(212,175,55,.95);
+    --metalB: rgba(184,134,11,.72);
+    --metalC: rgba(212,175,55,.26);
+    --metalD: rgba(184,134,11,.12);
   }
 }
 
