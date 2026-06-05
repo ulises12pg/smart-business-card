@@ -31,32 +31,6 @@
   --max: 980px;
 }
 
-@media (prefers-color-scheme: dark){
-  :root{
-    --bgTop: #0b0d12;
-    --bgBottom: #05050a;
-    --bg: var(--bgTop);
-
-    --card: rgba(255,255,255,.055);
-    --card2: rgba(255,255,255,.095);
-    --text: rgba(255,255,255,.92);
-    --muted: rgba(255,255,255,.72);
-    --muted2: rgba(255,255,255,.56);
-    --line: rgba(255,255,255,.12);
-    --shadow: 0 18px 55px rgba(0,0,0,.44);
-
-    /* Acento oro (herrería) */
-    --accent: #d4af37;
-    --accent2: #b8860b;
-    --accentBorder: rgba(212,175,55,.42);
-    --accentFocus: rgba(212,175,55,.22);
-    --accentGlow: rgba(212,175,55,.26);
-    --metalA: rgba(212,175,55,.95);
-    --metalB: rgba(184,134,11,.72);
-    --metalC: rgba(212,175,55,.26);
-    --metalD: rgba(184,134,11,.12);
-  }
-}
 
 [data-theme="light"]{
   --bgTop: #f7f8fb;

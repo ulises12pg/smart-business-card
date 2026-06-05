@@ -193,6 +193,10 @@ function setTheme(next) {
   }
   document.documentElement.setAttribute("data-theme", next);
   localStorage.setItem("sbc_theme", next);
+  const meta = document.getElementById("metaThemeColor");
+  if (meta) {
+    meta.setAttribute("content", next === "dark" ? "#0b0d12" : "#f7f8fb");
+  }
 }
 
 function toggleTheme() {
