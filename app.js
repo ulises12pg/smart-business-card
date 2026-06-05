@@ -1,7 +1,7 @@
 const PROFILE = {
   name: "Herrería e Innovación",
   role: "Forjando soluciones, Diseñando el futuro",
-  location: "Conejos Atotonilco Hidalgo · México",
+  location: "Calle República del Perú #69, Atotonilco - Conejos, Hidalgo · México",
   /** Teléfono principal (Llamar y WhatsApp 1) */
   phoneE164: "+529845097009",
   /** WhatsApp línea 2 (mismo mensaje que la primera) */
