@@ -12,7 +12,7 @@ const PROFILE = {
   whatsappMessage:
     "Hola, vi la tarjeta de Herrería e Innovación y me gustaría una cotización.",
   mapsUrl:
-    "https://www.google.com/maps?q=19.9688795,-99.2455191&z=17&hl=es",
+    "https://www.google.com/maps?q=20.0019444,-99.2222222&z=17&hl=es",
   /** Archivo de logo local (coloca `logo.png` en la carpeta del proyecto) */
   logoSrc: "./logo.png",
   socials: {
