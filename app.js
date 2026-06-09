@@ -174,7 +174,7 @@ function downloadQr() {
 
   const a = document.createElement("a");
   a.href = img.src;
-  a.download = "qr-smart-business-card.png";
+  a.download = "qr-hyicard.png";
   document.body.appendChild(a);
   a.click();
   a.remove();

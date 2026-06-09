@@ -1,4 +1,4 @@
-# SmartBusinessCard — Herrería e Innovación
+# HYICard — Herrería e Innovación
 
 Una **tarjeta de negocios digital inteligente** (HTML · CSS · JS puro) lista para producción en Vercel.
 
@@ -30,11 +30,11 @@ git commit -m "chore: initial commit"
 ### 3 — Crea el repositorio en GitHub y sube el código
 
 1. Ve a [github.com/new](https://github.com/new)
-2. Nómbralo `smart-business-card`, selecciona **Privado** o Público, **no** initialices con README
+2. Nómbralo `HYICard`, selecciona **Privado** o Público, **no** initialices con README
 3. Ejecuta los comandos que GitHub te muestra, por ejemplo:
 
 ```bash
-git remote add origin https://github.com/TU_USUARIO/smart-business-card.git
+git remote add origin https://github.com/TU_USUARIO/HYICard.git
 git branch -M main
 git push -u origin main
 ```
@@ -42,7 +42,7 @@ git push -u origin main
 ### 4 — Importa el proyecto en Vercel
 
 1. Ve a [vercel.com/new](https://vercel.com/new) e inicia sesión con GitHub
-2. Haz clic en **Import** junto a `smart-business-card`
+2. Haz clic en **Import** junto a `HYICard`
 3. En *Framework Preset* selecciona **Other** (es HTML estático)
 4. Deja todos los demás campos vacíos y haz clic en **Deploy**
 
@@ -96,7 +96,7 @@ Edita `contact.vcf` con el nombre, empresa y teléfono. Es lo que iOS/Android gu
 ## 📦 Estructura del proyecto
 
 ```
-smart-business-card/
+HYICard/
 ├── index.html       # Estructura de la página
 ├── styles.css       # Estilos (tema oscuro y claro)
 ├── app.js           # Toda la lógica + configuración PROFILE
